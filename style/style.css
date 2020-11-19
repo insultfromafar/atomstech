@@ -1,0 +1,35 @@
+@font-face {
+	font-family: JetBrains;
+ 	src: url(webfonts/JetBrainsMono-Regular.woff2);
+}
+
+@font-face {
+	font-family: JetBrains
+	src: url(webfonts/JetBrainsMono-Bold.woff2)
+	font-weight: bold;
+}
+
+.background {
+	font-family: JetBrains;
+	font-size: 16pt;
+	padding: 0px 0px 0px 0px;
+}
+
+.main_page {
+	position: relative;
+	display: table;
+}
+
+.header {
+	font-size: 250%;
+	font-weight: bold;
+
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 12px 12px 12px 12px;
+}
+
+.text {
+	font-size: 12pt;
+}
