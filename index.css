@@ -9,18 +9,42 @@
 	font-weight: bold;
 }
 
-.background {
-	font-family: JetBrains;
-	font-size: 16pt;
-	padding: 0px 0px 0px 0px;
+.* {
+	margin: 0px 0px 0px 0px
+	padding: 0px 0px 0px 0px
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.body{
+	padding: 3px 3px 3px 3px
+	background-color: #FFFFFF;
+
+	font-family: JetBrains, sans-serif;
+	font-size: 12pt;
+	text-align: left;
 }
 
 .main_page {
 	position: relative;
 	display: table;
+	width: 1000px;
+	margin-bottom: 3px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px 0px 0px 0px;
+	text-align: left;
 }
 
-.header {
+.float {
+	position: relative;
+	float: left;
+}
+
+.page_header {
+	width: 100%;
 	font-size: 250%;
 	font-weight: bold;
 
@@ -30,6 +54,19 @@
         padding: 12px 12px 12px 12px;
 }
 
-.text {
-	font-size: 12pt;
+div.content_section {
+	margin: 3px 3px 3px 3px
+	text-alighn: left;
+}
+
+div.content_header{
+	padding: 3px 6px 3px 6px
+	font-weight: bold;
+	font-size: 112%;
+	text-align: center;
+}
+
+div.content_text {
+	margin: 3px 3px 3px 3px;
+	font_size: 100%;
 }
