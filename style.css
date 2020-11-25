@@ -1,7 +1,7 @@
 
 @font-face {
 	font-family: JetBrains;
- 	src:url(/webfonts/JetBrainsMono-Regular.woff2);
+	 src:url(/webfonts/JetBrainsMono-Regular.woff2);
 }
 
 @font-face {
@@ -27,7 +27,8 @@ strong.extra {
 }
 
 .body{
-	background-color: #FFFFFF;
+	background-color: inherit;
+	color: #590925;
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
 	font-family: JetBrains, sans-serif;
@@ -36,6 +37,7 @@ strong.extra {
 }
 
 div.main_page {
+	background-color: #FFFFFF
 	position: relative;
 	display: table;
 	margin: auto;
@@ -43,6 +45,7 @@ div.main_page {
 }
 
 .page_header {
+	background-color: #FFFFFF;
 	display: inline;
 	font-size: 250%;
 	font-weight: bold;
@@ -51,11 +54,14 @@ div.main_page {
 }
 
 div.bar {
+	background-color: inherit;
 	width: 100%;
 	border-style: solid none solid none;
+	border-color: #04151F;
 }
 
 .nav {
+	background-color: inherit;
 	text-align: center;
 	text-decoration: none;
 	font-size: 125%;
@@ -67,6 +73,7 @@ div.bar {
 }
 
 #nav ul {
+	background-color: inherit;
 	padding-inline-start: 0px;
 	text-align: left;
 	margin-block-start: 10px;
@@ -75,16 +82,19 @@ div.bar {
 }
 
 #nav li {
+	background-color: inherit;
 	display: inline;
 	font-weight: normal;
 	margin-right: 20px;
 }
 
 .content_section {
+	background-color: inherit;
 	margin: 6px 6px 6px 6px;
 }
 
 div.content_header {
+	background-color: inherit;
 	padding: 12px 0px 12px 0px;
 	font-weight: bold;
 	font-size: 112%;
@@ -92,6 +102,7 @@ div.content_header {
 }
 
 div.content_text {
+	background-color: inherit;
 	margin: 3px 3px 3px 3px;
 	font_size: 100%;
 }
